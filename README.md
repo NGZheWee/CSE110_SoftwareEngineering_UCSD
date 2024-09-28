@@ -21,6 +21,5 @@ This repository contains coursework from **CSE110: Software Engineering**, which
 - **Labs**: You can find all lab assignments under the `Labs/` directory, with each lab containing code and relevant documentation on software engineering practices.
 - **Group Project**: The `Group Project/` directory contains the group project, detailing our software engineering process, team roles, and contributions toward building the final project.
 
-## Conclusion:
 
 Explore the coursework to see implementations of software engineering principles, including version control, Agile methodology, and collaborative project development techniques.
