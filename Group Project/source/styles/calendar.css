@@ -1,0 +1,81 @@
+/**
+ * This file is the CSS file for the calendar feature. This
+ * implements all the necessary style for the calendar feature.
+ * 
+ * References: 
+ *       MDN Web Docs
+ */
+
+
+.container-calendar {
+    height: 45%;
+    padding: 20px 10px;
+}
+
+.today {
+    font-weight: bold;
+}
+
+.bg-info {
+    background-color: #E9E0D7;
+}
+
+.bg-info-dark-green {
+    background-color: #83b692;
+}
+
+.bg-info-light-green {
+    background-color: rgb(131, 182, 146, 0.5);
+}
+
+.bg-info-light-red {
+    background-color: rgb(194, 69, 45, 0.5);
+}
+
+.bg-info-dark-red {
+    background-color: #c2452d;
+}
+
+.form-inline2 {
+    display: none;
+}
+
+body {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    background: white;
+    color: black; /*Font Color */
+}
+
+th { 
+    font-weight: bold;
+    padding: 0px; /*Cell Padding */
+    /* border: 1px solid #E9E0D7; Cell Border */
+}
+
+td {
+    padding: 5px; /*Cell Padding */
+}
+
+#days {
+    height: 40px; /*Row for Days Height */
+    color: black; /* Days Font Color */
+}
+
+h3 {
+    color: #D1B9A4; /* Header Font Color */
+}
+
+/* Buttons for Previous and Next */
+#previous, #next {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3C4458;
+    border: #3C4458 solid 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+}

@@ -1,0 +1,59 @@
+/**
+ * This file is the CSS file for the top bar. This
+ * implements all the necessary style for the top bar on the 
+ * main page.
+ * Inspired by w3schools - navigation bar.
+ * 
+ * References: 
+ *       MDN Web Docs
+ *       https://www.w3schools.com/css/css_navbar.asp
+ *
+ */
+
+@import url(../styles/global.css);
+
+#top-bar {
+    background-color: #E3E7D7;
+    height: 75px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-logo {
+    font-size: 2.5rem;
+    font-weight: 1000;
+    color: #99AA84;
+}
+
+
+#top-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #E3E7D7;
+}
+  
+#top-bar li {
+    float: left;
+}
+  
+#top-bar li a {
+    display: block;
+    color:  #99AA84;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    font-size: 1.25rem;
+}
+  
+#top-bar li a:hover:not(.active) {
+    background-color: #E9E0D7;
+}
+
+#top-bar .active {
+    background-color: #D1B9A4;
+}

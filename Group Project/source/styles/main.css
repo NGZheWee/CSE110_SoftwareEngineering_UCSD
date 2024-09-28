@@ -1,0 +1,220 @@
+/**
+ * This file is the main CSS file for our website. It ensures that
+ * colors and the sizing of everything is uniform across our wesbite.
+ * 
+ * References: 
+ *       MDN Web Docs
+ */
+
+@import url(../styles/global.css);
+@import url(../styles/calendar.css);
+@import url(../styles/expenses.css);
+@import url(../styles/visualization.css);
+@import url(../styles/reminders.css);
+@import url(../styles/top-bar.css);
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+div.main-body {
+    display: grid;   
+    height: 100vh; 
+    grid-template: max-content;
+}
+
+.toggleOFF {
+    grid-template-columns: auto auto;
+}
+  
+.toggleON {
+    grid-template-columns: 1fr 1fr 2fr;
+}
+/* make all text within divs green */
+div {
+    /* color: #99AA84; */
+    background-color: #FBFAF4;
+    /* font-weight:bold; */
+}
+/* make all buttons the same color*/
+.btn {
+    background-color: #99AA84 !important ;
+    color: #FBFAF4 !important ;
+}
+
+.btn:hover{
+    background-color: #E3E7D7 !important;;
+}
+
+
+#toggleButton{
+    background-color: #e2b4bd !important;
+    /* border-color: #e2b4bd !important; */
+    border-radius: 20px;
+    width: 100px !important;
+    height: 25px !important;
+    color: white!important;
+    position:absolute;
+    top: 85px;
+    right:5px;
+}
+
+/*
+styling budget component
+*/
+#expenseTable {
+    color: black !important;
+    width: 60%;
+    margin-left: 2%;
+
+}
+
+#expensetable th {
+    background-color: white !important;
+    color: black !important;
+}
+
+#expensetable td {
+    background-color: white !important;
+}
+
+#expensetable input {
+    background-color: white !important;
+    color: black !important;
+}
+.del_budget_btn{
+    background-color: #e2b4bd  !important;
+    /* margin-left: 5% !important; */
+}
+
+.del_select_btn{
+    background-color: #e2b4bd !important;
+    margin-left: -22%; 
+    color: white!important
+}
+
+.save_budget_btn{
+    background-color: #e2b4bd !important;
+    border-radius: 50px !important;
+    width: 200px !important;
+    height: 50px !important;
+    font-size: medium;
+}
+
+.add_btn{
+    background-color: white !important;
+    color: black !important;
+    border-radius: 50px;
+    border-width: 2px !important;
+    border-color: black !important;
+    margin-left:"-22%"
+}
+
+
+.expTitle {
+    margin-left: -22%; 
+}
+
+
+/* END OF EXPENSES COMPONENT STYLING*/
+
+/*START OF VISUALIZATION STYLING*/
+
+.budget-vis-container {
+    background-color: #FBFAF4 !important;
+    margin: auto;
+}
+#budget{
+    background-color: #FBFAF4 !important;
+    color: black !important;
+}
+
+#visualization{
+    background-color: #FBFAF4 !important;
+    
+}
+
+/* END OF VISUALIZATION STYLING */
+
+/* START OF REMINDERS VISUALIZATION */
+
+#reminders {
+    background-color:#FBFAF4 !important;
+    color: black !important;
+}
+
+#reminders li {
+    color : black !important;
+}
+
+#inputReminder{
+    color:black !important;
+}
+/* END */ 
+
+/* START OF CALENDAR STYLING */
+table th {
+   background-color: #FBFAF4 !important;
+   color: black;
+}
+
+/*table td {
+    background-color: #FBFAF4 !important;
+    color: #99AA84;
+}*/
+
+.calendar-header {
+    color : #99AA84;
+}
+
+.card-calendar{
+    width: 4fr;
+}
+
+table {
+    table-layout: auto !important;
+    width: 100%;
+}
+
+#previous, #next {
+    border-width: 0 !important;
+    border-radius: 50px !important;
+    width: 150px !important;
+    height: 50px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* End of Calendar Styling */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #80916d;
+    color: #FBFAF4;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+  
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+

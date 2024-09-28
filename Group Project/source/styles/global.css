@@ -1,0 +1,20 @@
+/**
+ * This file is the global CSS file. This is for fonts,
+ * colors, and sizes.
+ * 
+ * References: 
+ *       MDN Web Docs
+ */
+
+/* Fonts */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Colors */
+:root {
+    --main-bg-color: #EDF3F8;
+    --main-font-color: #3C4458;
+    --main-logo-color: #16307B;
+}
