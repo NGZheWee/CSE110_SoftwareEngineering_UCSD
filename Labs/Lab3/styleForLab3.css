@@ -1,0 +1,134 @@
+* {font-family: "PT Sans", Calibri, Tahoma, sans-serif;}
+
+/*Set up for Header*/
+header {
+    position: relative;
+    top: 5px; left: 5px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1cm;
+
+    margin-top: 1em;
+    margin-right: 300mm;
+    margin-bottom: 5vh;
+    margin-left: 1ch;
+    
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    
+}
+
+
+
+/* Set up for links */
+  a:link {
+    color: Blue;
+  }
+
+  a:visited {
+    color: black;
+  }
+
+  a:hover {
+    color: red;
+  }
+
+  a:active {
+    color: green;
+  }
+
+
+
+/* Set up for titles */
+h1.title{
+    text-decoration:underline overline red;
+    position: static;
+    text-align: center;
+}
+
+.subtitle {
+    display:block;
+    text-align:center;
+}
+
+
+/* Set up for the grid in main section*/
+main{
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-flow: row;
+    grid-row-gap: 5px;
+    background-color: lightblue;
+}
+
+main > section {
+    background-color: rgba(255, 255, 0, 0.8);
+    border: 1px solid black;
+  }
+
+
+
+ /* Set up for each section title*/
+#attendanceList, #agenda, #unfinishedBusinessFromLastMeeting, #newBusiness {
+    text-decoration: rgb(50.2%,50.2%,50.2%) underline dotted;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+    margin: 40px 26cm 3px 1px;
+    padding:10px 10px 10px 10px;
+}
+
+
+
+/* Set up for some contents*/
+main ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+
+.absent {
+    display:  none;
+}
+
+div  p {
+   display: block;
+   text-align: left;
+  }
+
+img {
+    box-sizing: content-box;
+    width: 50%;
+    max-width: 1500px;
+    height:70%;
+    max-height: 1500px;
+}
+
+
+
+/* Set up for footers */
+details > summary{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+
+    margin: auto;
+}
+
+summary + span {
+    text-decoration:wavy underline;
+}
+
+br ~ span {
+    text-decoration:underline overline black;
+}
+
+textarea[rows="1"], button[name~="buttonAttribute"]{
+    background-color: darkorange;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group34 Meeting Minute</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="docs/favicon-32x32.png">
+</head>
+<body>
+    <header>
+        <h3>Overview</h3>
+        <nav>
+            <ol>
+                <li><a href="#attendanceList">Attendance List</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#unfinishedBusinessFromLastMeeting">Unifinished Business from Last Meetings</a></li>
+                <li><a href="#newBusiness">New Business</a></li>
+            </ol>
+        </nav>
+    </header>
+    
+
+    <main>
+        <h1>Group34 First Metting Minutes</h1>
+        <h2><i>Team Logistics</i></h2>
+        <h2><i>10/05/2022 </i></h2>
+        <hr />
+
+        <section>
+        <h2 id="attendanceList">1. Attendance List</h2>
+        <ul>
+            <li>Alessia Welch (Team Leader)</li>
+            <li>Ananya Dey (TA)</li>
+            <li>David Wang</li>
+            <li>Jack Wagner</li>
+            <li>Jiaxin Ye</li>
+            <li>NG Zhe Wee</li>
+            <li>Raphael Young Oh</li>
+            <li>Sisy Chen</li>
+            <li>Spencer Marking</li>
+            <li>Xu Tang</li>
+            <li>Yash Patki</li>
+        </ul>
+        </section>
+
+        <br><section>
+            <h2 id="agenda">2. Agenda</h2>
+            <div><p>The purpose of this meeting is to familarize ourselves with each other and the platform(e.g. zoom) that we will be using for future meetings. </p></div>
+            <img src="docs/agenda.png" alt="mindmap for agenda">
+        </section>
+        
+        <br><section>
+            <h2 id="unfinishedBusinessFromLastMeeting">3. Unifinished Business from Last Meetings</h2>
+            <div><p>Since this is our first meeting, there are no unfinished business to be addressed from last meetings.</p></div>
+        </section>
+
+        <br><section>
+            <h2 id="newBusiness">4. New Business</h2>
+            <div><p>The following are video and audio recording for the meeting: (random audio & video actually)</p></div>
+            <audio controls src="docs/pretendAudio.mp3"></audio><br>
+            <video controls> <source src="docs/pretendVideo.mp4" type="video/mp4"></video>
+        </section>
+        
+    </main>
+
+
+    <br><hr />
+    <footer>
+        <details>
+            <summary><b><em>Subscribe</em> to Us!</b></summary>
+
+            <span><strong>Choose your subscription preferences:</strong></span>
+
+            <form onsubmit="alert('Your suscription preferences have been updated!')">
+                <br><fieldset> Would you want to subscribe to future meeting minutes?
+                    <input type="radio" id="Yes">Yes
+                    <input type="radio" id="No">No
+                </fieldset>
+
+                <br>If yes, How often do you want to receive the meeting minutes?
+                <input list="frequency"><br>
+                <datalist id="frequency">
+                    <option value="Whenever the meeting minutes are available"></option>
+                    <option value="Once a week"></option>
+                    <option value="Once a Month"></option>
+                </datalist>
+
+                <br><label for="docType-select">In what document type would you prefer for receiving the minute minutes?</label>
+                <select id="docType-select">
+                    <option>--Please choose an option--</option>
+                    <option>URL</option>
+                    <option>.pdf</option>
+                    <option>.docx</option>
+                </select><br>
+
+                <br><span>Enter your email address:</span>
+                <textarea rows="1" cols="25"></textarea><br>
+
+                <br><button>Submit</button>
+            </form>
+        </details>
+    </footer>
+</body>
+</html>
