@@ -22,4 +22,6 @@ This repository contains coursework from **CSE110: Software Engineering**, which
 - **Group Project**: The `Group Project/` directory contains the group project, detailing our software engineering process, team roles, and contributions toward building the final project.
 
 
-Explore the coursework to see implementations of software engineering principles, including version control, Agile methodology, and collaborative project development techniques.
+## Academic Integrity Note
+
+This repository contains my own coursework submissions and related learning artifacts, shared for portfolio review only; do not copy or submit this material for active or future coursework, and follow your institution's academic integrity policies.
